@@ -135,12 +135,12 @@ body {
   padding: 0.6em 4.5em;
   margin-bottom: 2em;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s;
 }
 
 .button:hover {
   background-color: var(--clr-accent);
   border: 1px solid transparent;
-  transition: 0.5s;
 }
 
 /* Footer */
@@ -161,12 +161,12 @@ body {
   border: 1px solid var(--clr-secondary);
   border-radius: 50%;
   fill: var(--clr-secondary);
+  transition: 0.5s;
 }
 
 .link:hover {
   fill: var(--clr-accent);
   border: 1px solid var(--clr-accent);
-  transition: 0.5s;
 }
 
 @media (min-width: 48em) {
